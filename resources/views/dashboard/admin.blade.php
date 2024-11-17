@@ -543,7 +543,6 @@
     // Open Category Modal
     $("#add-category").click(function () {
         $("#category-modal").modal('show');
-        $("#category-form")[0].reset();
         $("#category-id").val('');
     });
 
@@ -634,7 +633,6 @@
     // Open Book Modal
     $("#add-book").click(function () {
         $("#book-modal").modal('show');
-        $("#book-form")[0].reset();
         $("#book-id").val('');
     });
 
